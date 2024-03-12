@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Form</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="https://i.ibb.co/7C6HczQ/Coding-Mania-pfp.jpg">
+</head>
+
+<body>
+  <div id="clickable-image">
+    <img src="https://i.ibb.co/7C6HczQ/Coding-Mania-pfp.jpg" alt="Coding Mania Logo" class="profile-pic">
+  </div>
+<div class="login-form">
+  <h1>Login Form </h1>
+  <form action="/submit-your-login-form" method="post">
+    <div class="input-group">
+      
+      
+
+      <label for="username">Email</label>
+      <input class="color" type="text" id="username" name="username" required>
+    </div>
+
+
+    <div class="input-group">
+      <label for="password">Password</label>
+      <input class="color" type="password" id="password" name="password" required>
+    </div>
+    <br>
+    <a href="register.html">
+       <p> Don't have account? Register now </p>
+    </a>
+  </form>
+</div>
+
+<script src="script.js"></script>
+<script>
+  document.getElementById('clickable-image').addEventListener('click', function() {
+  window.location.href = 'https://coiding-mania.github.io/mania.site/';
+});
+</script>
+
+<h2 id="madeBy" title="click to open">Made By Akshat Sharma</h2>
+ <script>
+  document.getElementById('madeBy').addEventListener('click', function () {
+      window.location.href = 'https://www.instagram.com/_sky_ak47/';
+  });
+</script>
+</body>
+</html>
